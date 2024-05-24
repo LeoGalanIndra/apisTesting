@@ -22,7 +22,7 @@ Primeros Pasos con Postman:
   ![alt text](image.png)
 
     <div style="text-align:center;">
-        <img src="imagen.jpg" alt="Crear Collection">
+        <img src="image.jpg" alt="Crear Collection">
     </div>
     
     2. Crear una nueva solicitud (Request) y seleccionar el método GET.
