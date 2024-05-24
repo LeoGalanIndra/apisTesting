@@ -25,6 +25,9 @@ Primeros Pasos con Postman:
     3. Usar la URL https://reqres.in/api/users
     4. Hacer clic en "Send" y observar la respuesta en formato JSON.
 
+  ![alt text](image_1.png)
+
+    
 
 Análisis de la Respuesta:
 
