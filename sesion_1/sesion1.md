@@ -20,6 +20,10 @@ Primeros Pasos con Postman:
     1. Abrir Postman y crear una nueva colección para organizar las peticiones.
 
   ![alt text](image.png)
+
+    <div style="text-align:center;">
+        <img src="imagen.jpg" alt="Crear Collection">
+    </div>
     
     2. Crear una nueva solicitud (Request) y seleccionar el método GET.
     3. Usar la URL https://reqres.in/api/users
