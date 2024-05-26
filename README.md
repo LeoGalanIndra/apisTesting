@@ -10,5 +10,11 @@ TALLER DE API
 
     Contenido: 
 
-        - Sesion_1: Pruebas REST-API - Metodo HTTP GET 
-         
+        - Sesion 1: Configurando el proyecto en Postman
+        - Sesion 2: Pruebas REST-API - Metodo HTTP GET 
+        - Sesion 3: Pruebas REST-API - Metodo HTTP POST
+
+    Recursos
+
+    https://petstore.swagger.io/
+    
