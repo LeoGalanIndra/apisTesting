@@ -1,9 +1,9 @@
 Sesión 1: 
-    Configurando ambiente
+    Introducción a las Peticiones HTTP GET
 
 
 Objetivo:
-    Configurar el workspace para agrupar varias peticiones a un servicio web. 
+    Aprender a realizar peticiones HTTP GET y entender cómo obtener datos desde una API RESTful.
 
 
 Recursos necesarios:
@@ -22,9 +22,6 @@ Primeros Pasos con Postman:
   ![alt text](image.png)
     
     2. Crear una nueva solicitud (Request) y seleccionar el método GET.
-
-    <img src="image.png" alt="Texto alternativo" style="float:left;">
-
     3. Usar la URL https://reqres.in/api/users
     4. Hacer clic en "Send" y observar la respuesta en formato JSON.
 
