@@ -14,11 +14,22 @@
         - Sesion 2: Pruebas REST-API - Metodo HTTP GET 
         - Sesion 3: Pruebas REST-API - Metodo HTTP POST
         - Sesion 4: Pruebas REST-API - Metodo HTTP PUT
+        - Sesion 5: Autenticación. 
 
 ## Recursos
 
-    https://reqres.in/ 
-    https://petstore.swagger.io/
-    https://mystoreapi.com
-    https://fakeapi.platzi.com/ 
+        - Herramienta para realizar testing sobre APIs 
+
+        Postman:  https://www.postman.com/ 
+        Insomnia: https://insomnia.rest/ 
+        Soapui:   https://www.soapui.org/
+        Yaak:     https://yaak.app/
+
+        - Fake API Services 
+
+        https://reqres.in/ 
+        https://petstore.swagger.io/
+        https://mystoreapi.com
+        https://fakeapi.platzi.com/ 
+        https://fakestoreapi.com/docs
     

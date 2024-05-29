@@ -1,12 +1,12 @@
-Sesión 1: 
-    Introducción a las Peticiones HTTP GET
+# Sesión 1: 
+    Configurando ambiente
 
 
-Objetivo:
-    Aprender a realizar peticiones HTTP GET y entender cómo obtener datos desde una API RESTful.
+## Objetivo:
+    Configurar el workspace para agrupar varias peticiones a un servicio web. 
 
 
-Recursos necesarios:
+## Recursos necesarios:
 
     - Herramienta para realizar peticiones por http. Se sugiere realizarlo con Postman. 
     - Servicio Rest. 
@@ -15,7 +15,7 @@ Recursos necesarios:
         Documentacion: https://reqres.in/api-docs/ 
 
 
-Primeros Pasos con Postman:
+## Primeros Pasos con Postman:
 
     1. Abrir Postman y crear una nueva colección para organizar las peticiones.
 
@@ -29,7 +29,7 @@ Primeros Pasos con Postman:
 
     
 
-Análisis de la Respuesta:
+## Análisis de la Respuesta:
 
     Explicar los componentes de una respuesta HTTP: código de estado, cabeceras y cuerpo.
     Mostrar cómo interpretar el código de estado (por ejemplo, 200 OK, 404 Not Found).

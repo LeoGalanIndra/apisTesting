@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "73f1d96c-365e-4aab-9f4f-eee7b00e0d53",
+		"name": "Products",
+		"description": "Collection para gestionar las peticiones hacia el recurso Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "3792500"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Black shoes\",\r\n  \"price\": 20,\r\n  \"description\": \"Amazing Black shoes for her and him\",\r\n  \"categoryId\": 1,\r\n  \"images\": [\"https://placeimg.com/640/480/any\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://api.escuelajs.co/api/v1/products/"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Black shoes\",\r\n  \"price\": 120,\r\n  \"description\": \"Amazing Black shoes for her and him\",\r\n  \"categoryId\": 1,\r\n  \"images\": [\"https://placeimg.com/640/480/any\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://api.escuelajs.co/api/v1/products/85"
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://api.escuelajs.co/api/v1/products/49"
+			},
+			"response": []
+		}
+	]
+}

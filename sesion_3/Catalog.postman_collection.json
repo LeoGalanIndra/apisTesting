@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "ec1bacf9-ea85-4d49-a927-219d290bf243",
+		"name": "Catalog",
+		"description": "Collection para gestionar las solicitudes al recursos Catalog/Product\n\nApi-docs\n\n[https://mystoreapi.com/](https://mystoreapi.com/)\n\nAPI\n\nhttps://mystoreapi.com/catalog/product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "3792500"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Premium Cheese\",\r\n  \"price\": 1000,\r\n  \"manufacturer\": \"Alpina\",\r\n  \"category\": \"Cold products\",\r\n  \"description\": \"Delicious VIP Cheese\",\r\n  \"tags\": \"Cheese, Milk\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://mystoreapi.com/catalog/product"
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://mystoreapi.com/catalog/product/1513470"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "0e8eeadd-37b2-45b9-8866-33dd9506f960",
+		"name": "Autenticación",
+		"description": "Collection para gestionar las peticiones de autenticación",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "3792500"
+	},
+	"item": [
+		{
+			"name": "Basic Authentication",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "user",
+						"password": "passwd"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://httpbin.org/basic-auth/user/passwd"
+			},
+			"response": []
+		},
+		{
+			"name": "ApiKey",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"in": "query",
+						"value": "e58fca85d825bff73d3f0cebf1c52220",
+						"key": "appid"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "44.34"
+						},
+						{
+							"key": "lon",
+							"value": "10.99"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Autenticación con token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "foo"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://httpbin.org/bearer"
+			},
+			"response": []
+		}
+	]
+}

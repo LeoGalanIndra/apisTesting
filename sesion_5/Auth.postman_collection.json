@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "24350723-dadb-4c24-b454-e4429283be96",
+		"name": "Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "3792500"
+	},
+	"item": [
+		{
+			"name": "Basic Auth",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "postman",
+						"password": "password"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://postman-echo.com/basic-auth"
+			},
+			"response": []
+		},
+		{
+			"name": "API-KEY",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=hgxa3KH6vX5RC7GszzsLVECLcCzVCby8EPtXLkqM",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"curiosity",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "sol",
+							"value": "1000"
+						},
+						{
+							"key": "api_key",
+							"value": "hgxa3KH6vX5RC7GszzsLVECLcCzVCby8EPtXLkqM"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
